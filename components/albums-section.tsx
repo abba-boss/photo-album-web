@@ -14,13 +14,13 @@ const albumCategories = [
   },
   {
     title: "Travel",
-    image: "/travel1.jpeg",
+    image: "/travel2.png",
     count: "16 albums",
     gradient: "from-pink-500 to-purple-500",
   },
   {
     title: "Events",
-    image: "/event.jpeg",
+    image: "/event2.jpg",
     count: "12 albums",
     gradient: "from-blue-500 to-teal-500",
   },

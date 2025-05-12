@@ -167,7 +167,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-[#8a2be2] mt-0.5" />
-                <span className="text-gray-400">support@photoalbums.com</span>
+                <span className="text-gray-400">photoalbum0@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-[#8a2be2] mt-0.5" />

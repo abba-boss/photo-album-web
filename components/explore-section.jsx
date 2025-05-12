@@ -61,21 +61,21 @@ const photoGrid = [
   },
   {
     id: 5,
-    src: "/developer.jpg",
-    tags: ["developer", "portrait"],
-  },
+    src: "/developers.jpg",
+    tags: ["developers", "portrait"],
+  }, 
   {
     id: 6,
     src: "/animals2.jpg",
     tags: ["animal", "cat"],
-  },
+  }, 
 ]
 
 export default function ExploreSection() {
   const [activeTag, setActiveTag] = useState("all")
   const [layout, setLayout] = useState("grid")
 
-  const tags = ["all", "nature", "travel", "food", "architecture", "developer", "animal"]
+  const tags = ["all", "nature", "travel", "food", "architecture", "developers", "animal"]
 
   const filteredPhotos = activeTag === "all" ? photoGrid : photoGrid.filter((photo) => photo.tags.includes(activeTag))
 
